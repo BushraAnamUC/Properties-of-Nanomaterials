@@ -20,6 +20,7 @@ This project focuses on analyzing and visualizing properties of nanomaterials to
 
 
 **MaterialsScienceDataAnalysis/** 
+
 ├── **data/** 
 - materials.csv
 - properties.csv
@@ -29,6 +30,7 @@ This project focuses on analyzing and visualizing properties of nanomaterials to
 ├── **notebooks/**
 - data_analysis.ipynb
 - MaterialsDB
+- 
 ├── **sql/**
 - create_tables.sql
 - insert_data.sql
