@@ -85,7 +85,7 @@ If using MySQL:
 ```
 
 
-## **Tables and Relationships:**
+ **Tables and Relationships:**
 Materials: Stores information about different nanomaterials.
 
 -MaterialID: Unique identifier for each material.
@@ -115,11 +115,11 @@ Materials: Stores information about different nanomaterials.
 -Affiliation: Affiliation of the researcher.
 -ContactInfo: Contact information of the researcher.
 
-##**Sample Data**
+**Sample Data**
 
 Sample data is provided in the sql/insert_data.sql file to populate the database tables with initial records.
 
-##**Data Analysis**
+**Data Analysis**
 
 SQL queries are used to perform various analyses, including:
 
@@ -127,6 +127,8 @@ Correlation between particle size and thermal conductivity.
 Impact of doping on electrical conductivity.
 Properties measured by each researcher.
 Queries are provided in the sql/analysis_queries.sql file.
+
+
 **Visualizations**
 
 Python scripts in the notebooks/data_analysis.ipynb notebook demonstrate how to visualize the data using Matplotlib and Seaborn.
