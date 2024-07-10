@@ -64,7 +64,7 @@ pip install pandas matplotlib seaborn sqlite3
 
 ```
 
-### **Set up the database:**
+## **Set up the database:**
 
 **If using SQLite:**
 
@@ -85,41 +85,61 @@ If using MySQL:
 ```
 
 
- **Tables and Relationships:**
+## **Tables and Relationships:**
+
 Materials: Stores information about different nanomaterials.
 
 -MaterialID: Unique identifier for each material.
+
 -MaterialName: Name of the material.
+
 -ParticleSize: Size of the particles in nanometers.
+
 -Doping: Doping element used.
+
 -SynthesisMethod: Method used for synthesis.
+
 -Properties: Stores properties of the materials.
 
 -PropertyID: Unique identifier for each property record.
+
 -MaterialID: Identifier linking to the material.
+
 -PropertyName: Name of the property.
+
 -PropertyValue: Value of the property.
+
 -Units: Units of the property value.
+
 -Experiments: Stores details of experiments conducted on the materials.
 
 -ExperimentID: Unique identifier for each experiment.
+
 -MaterialID: Identifier linking to the material.
+
 -Date: Date of the experiment.
+
 -ResearcherID: Identifier linking to the researcher.
+
 -Equipment: Equipment used in the experiment.
+
 -Conditions: Conditions under which the experiment was conducted.
+
 -Researchers: Stores information about researchers.
 
 -ResearcherID: Unique identifier for each researcher.
+
 -ResearcherName: Name of the researcher.
+
 -Affiliation: Affiliation of the researcher.
+
 -ContactInfo: Contact information of the researcher.
 
-**Sample Data**
+## **Sample Data**
 
 Sample data is provided in the sql/insert_data.sql file to populate the database tables with initial records.
 
-**Data Analysis**
+##  **Data Analysis**
 
 SQL queries are used to perform various analyses, including:
 
@@ -129,7 +149,7 @@ Properties measured by each researcher.
 Queries are provided in the sql/analysis_queries.sql file.
 
 
-**Visualizations**
+## **Visualizations**
 
 Python scripts in the notebooks/data_analysis.ipynb notebook demonstrate how to visualize the data using Matplotlib and Seaborn.
 
@@ -138,7 +158,7 @@ Particle Size vs Thermal Conductivity
 
 Impact of Doping on Electrical Conductivity
 
-**How to Use**
+## **How to Use**
 
 Ensure the database is set up and populated with data.
 Open the Jupyter Notebook notebooks/data_analysis.ipynb.
