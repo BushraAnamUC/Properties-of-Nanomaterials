@@ -6,7 +6,7 @@ This project focuses on analyzing and visualizing properties of nanomaterials to
 
 ## **Table of Contents**
 
-- [Overview](#overview)
+
 - [Project Structure](#project-structure)
 - [Setup and Installation](#setup-and-installation)
 - [Database Schema](#database-schema)
@@ -20,11 +20,17 @@ This project focuses on analyzing and visualizing properties of nanomaterials to
 
 
 **MaterialsScienceDataAnalysis/** 
+
 ├── data/ 
+
 │   ├── materials.csv
+
 │   ├── properties.csv
+
 │   ├── experiments.csv
+
 │   ├── researchers.csv
+
 ├── notebooks/
 │   ├── data_analysis.ipynb
 ├── sql/
