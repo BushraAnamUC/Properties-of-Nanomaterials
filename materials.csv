@@ -1,4 +1,0 @@
-MaterialID,MaterialName,ParticleSize,Doping,SynthesisMethod
-1,Nanomaterial A,10.5,Dopant X,Sol-Gel
-2,Nanomaterial B,15.0,Dopant Y,Hydrothermal
-3,Nanomaterial C,8.2,None,Ball Milling
