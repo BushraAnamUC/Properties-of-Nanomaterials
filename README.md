@@ -20,17 +20,11 @@ This project focuses on analyzing and visualizing properties of nanomaterials to
 
 
 **MaterialsScienceDataAnalysis/** 
-
 ├── data/ 
-
 │   ├── materials.csv
-
 │   ├── properties.csv
-
 │   ├── experiments.csv
-
 │   ├── researchers.csv
-
 ├── notebooks/
 │   ├── data_analysis.ipynb
 ├── sql/
