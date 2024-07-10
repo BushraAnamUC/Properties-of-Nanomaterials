@@ -76,8 +76,8 @@ pip install pandas matplotlib seaborn sqlite3
 
 ```bash
 Copy code
-sqlite3 SalesDB.db < sql/create_tables.sql
-sqlite3 SalesDB.db < sql/insert_data.sql
+sqlite3 MaterialsDB < sql/create_tables.sql
+sqlite3 MaterialsDB < sql/insert_data.sql
 ```
 
 If using MySQL:
@@ -85,8 +85,8 @@ If using MySQL:
 **sql**
 ``` bash
    Copy code
-   mysql -u username -p SalesDB < sql/create_tables.sql
-   mysql -u username -p SalesDB < sql/insert_data.sql
+   mysql -u username -p MaterialsDB < sql/create_tables.sql
+   mysql -u username -p MaterialsDB < sql/insert_data.sql
    Database Schema
 ```
 
@@ -149,10 +149,10 @@ Sample data is provided in the sql/insert_data.sql file to populate the database
 
 SQL queries are used to perform various analyses, including:
 
-Correlation between particle size and thermal conductivity.
-Impact of doping on electrical conductivity.
-Properties measured by each researcher.
-Queries are provided in the sql/analysis_queries.sql file.
+- Correlation between particle size and thermal conductivity.
+- Impact of doping on electrical conductivity.
+- Properties measured by each researcher.
+- Queries are provided in the sql/analysis_queries.sql file.
 
 
 ## **Visualizations**
@@ -160,16 +160,17 @@ Queries are provided in the sql/analysis_queries.sql file.
 Python scripts in the notebooks/data_analysis.ipynb notebook demonstrate how to visualize the data using Matplotlib and Seaborn.
 
 Example Visualizations:
-Particle Size vs Thermal Conductivity
 
-Impact of Doping on Electrical Conductivity
+- Particle Size vs Thermal Conductivity
+
+- Impact of Doping on Electrical Conductivity
 
 ## **How to Use**
 
 Ensure the database is set up and populated with data.
 Open the Jupyter Notebook notebooks/data_analysis.ipynb.
 Execute the cells to perform data analysis and generate visualizations.
-Contributing
+
 
 **Contributions are welcome! Please fork the repository and create a pull request with your changes.**
 
