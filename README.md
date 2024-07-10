@@ -38,6 +38,7 @@ This project focuses on analyzing and visualizing properties of nanomaterials to
 ├── README.md
 
 
+
 ## **Setup and Installation**
 
 ### **Prerequisites**
@@ -48,32 +49,41 @@ This project focuses on analyzing and visualizing properties of nanomaterials to
 
 ### **Installation**
 
-1. **Clone the repository:**
+
+ **Clone the repository:**
 
    ```bash
    git clone https://github.com/yourusername/MaterialsScienceDataAnalysis.git
    cd MaterialsScienceDataAnalysis
+```
 
-## Install the required Python packages:
+### **Install the required Python packages:**
 
 ```bash
 pip install pandas matplotlib seaborn sqlite3
 
-## **Set up the database:**
+```
+
+### **Set up the database:**
 
 **If using SQLite:**
 
-bash
+```bash
 Copy code
 sqlite3 SalesDB.db < sql/create_tables.sql
 sqlite3 SalesDB.db < sql/insert_data.sql
+```
+
 If using MySQL:
 
 **sql**
-Copy code
-mysql -u username -p SalesDB < sql/create_tables.sql
-mysql -u username -p SalesDB < sql/insert_data.sql
-Database Schema
+``` bash
+   Copy code
+   mysql -u username -p SalesDB < sql/create_tables.sql
+   mysql -u username -p SalesDB < sql/insert_data.sql
+   Database Schema
+```
+
 
 ## **Tables and Relationships:**
 Materials: Stores information about different nanomaterials.
@@ -117,7 +127,6 @@ Correlation between particle size and thermal conductivity.
 Impact of doping on electrical conductivity.
 Properties measured by each researcher.
 Queries are provided in the sql/analysis_queries.sql file.
-
 **Visualizations**
 
 Python scripts in the notebooks/data_analysis.ipynb notebook demonstrate how to visualize the data using Matplotlib and Seaborn.
@@ -134,5 +143,13 @@ Open the Jupyter Notebook notebooks/data_analysis.ipynb.
 Execute the cells to perform data analysis and generate visualizations.
 Contributing
 
-**Contributions are welcome! Please fork the repository and create a pull request with your changes.
-**
+**Contributions are welcome! Please fork the repository and create a pull request with your changes.**
+
+
+
+
+
+
+
+
+
