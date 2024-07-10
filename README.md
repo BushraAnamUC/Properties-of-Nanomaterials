@@ -87,7 +87,7 @@ If using MySQL:
 
 ## **Tables and Relationships:**
 
-Materials: Stores information about different nanomaterials.
+**Materials: Stores information about different nanomaterials.**
 
 -MaterialID: Unique identifier for each material.
 
@@ -99,7 +99,7 @@ Materials: Stores information about different nanomaterials.
 
 -SynthesisMethod: Method used for synthesis.
 
--Properties: Stores properties of the materials.
+**Properties: Stores properties of the materials.**
 
 -PropertyID: Unique identifier for each property record.
 
@@ -111,7 +111,7 @@ Materials: Stores information about different nanomaterials.
 
 -Units: Units of the property value.
 
--Experiments: Stores details of experiments conducted on the materials.
+**Experiments: Stores details of experiments conducted on the materials.**
 
 -ExperimentID: Unique identifier for each experiment.
 
@@ -125,7 +125,7 @@ Materials: Stores information about different nanomaterials.
 
 -Conditions: Conditions under which the experiment was conducted.
 
--Researchers: Stores information about researchers.
+**Researchers: Stores information about researchers.**
 
 -ResearcherID: Unique identifier for each researcher.
 
