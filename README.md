@@ -25,16 +25,20 @@ This project focuses on analyzing and visualizing properties of nanomaterials to
 │   ├── properties.csv
 │   ├── experiments.csv
 │   ├── researchers.csv
+
 ├── notebooks/
 │   ├── data_analysis.ipynb
+    ├── MaterialsDB
 ├── sql/
 │   ├── create_tables.sql
 │   ├── insert_data.sql
 │   ├── analysis_queries.sql
+
 ├── visualizations/
 │   ├── particle_size_vs_thermal_conductivity.png
 │   ├── doping_vs_electrical_conductivity.png
-├── MaterialsDB
+
+
 ├── README.md
 
 
