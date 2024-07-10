@@ -1,0 +1,4 @@
+ExperimentID,MaterialID,Date,ResearcherID,Equipment,Conditions
+1,1,2023-01-15,1,XRD,Ambient
+2,2,2023-02-10,2,SEM,Vacuum
+3,3,2023-03-05,3,TEM,Cryogenic
