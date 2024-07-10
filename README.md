@@ -20,26 +20,26 @@ This project focuses on analyzing and visualizing properties of nanomaterials to
 
 
 **MaterialsScienceDataAnalysis/** 
-├── data/ 
-│   ├── materials.csv
-│   ├── properties.csv
-│   ├── experiments.csv
-│   ├── researchers.csv
+├── **data/** 
+- materials.csv
+- properties.csv
+- experiments.csv
+- researchers.csv
 
-├── notebooks/
-│   ├── data_analysis.ipynb
-    ├── MaterialsDB
-├── sql/
-│   ├── create_tables.sql
-│   ├── insert_data.sql
-│   ├── analysis_queries.sql
+├── **notebooks/**
+- data_analysis.ipynb
+- MaterialsDB
+├── **sql/**
+- create_tables.sql
+- insert_data.sql
+- analysis_queries.sql
 
-├── visualizations/
-│   ├── particle_size_vs_thermal_conductivity.png
-│   ├── doping_vs_electrical_conductivity.png
+├── **visualizations/**
+- particle_size_vs_thermal_conductivity.png
+- doping_vs_electrical_conductivity.png
 
 
-├── README.md
+├──  **README.md**
 
 
 
@@ -93,51 +93,51 @@ If using MySQL:
 
 **Materials: Stores information about different nanomaterials.**
 
--MaterialID: Unique identifier for each material.
+- MaterialID: Unique identifier for each material.
 
--MaterialName: Name of the material.
+- MaterialName: Name of the material.
 
--ParticleSize: Size of the particles in nanometers.
+- ParticleSize: Size of the particles in nanometers.
 
--Doping: Doping element used.
+- Doping: Doping element used.
 
--SynthesisMethod: Method used for synthesis.
+- SynthesisMethod: Method used for synthesis.
 
 **Properties: Stores properties of the materials.**
 
--PropertyID: Unique identifier for each property record.
+- PropertyID: Unique identifier for each property record.
 
--MaterialID: Identifier linking to the material.
+- MaterialID: Identifier linking to the material.
 
--PropertyName: Name of the property.
+- PropertyName: Name of the property.
 
--PropertyValue: Value of the property.
+- PropertyValue: Value of the property.
 
--Units: Units of the property value.
+- Units: Units of the property value.
 
 **Experiments: Stores details of experiments conducted on the materials.**
 
--ExperimentID: Unique identifier for each experiment.
+- ExperimentID: Unique identifier for each experiment.
 
--MaterialID: Identifier linking to the material.
+- MaterialID: Identifier linking to the material.
 
--Date: Date of the experiment.
+- Date: Date of the experiment.
 
--ResearcherID: Identifier linking to the researcher.
+- ResearcherID: Identifier linking to the researcher.
 
--Equipment: Equipment used in the experiment.
+- Equipment: Equipment used in the experiment.
 
--Conditions: Conditions under which the experiment was conducted.
+- Conditions: Conditions under which the experiment was conducted.
 
 **Researchers: Stores information about researchers.**
 
--ResearcherID: Unique identifier for each researcher.
+- ResearcherID: Unique identifier for each researcher.
 
--ResearcherName: Name of the researcher.
+- ResearcherName: Name of the researcher.
 
--Affiliation: Affiliation of the researcher.
+- Affiliation: Affiliation of the researcher.
 
--ContactInfo: Contact information of the researcher.
+- ContactInfo: Contact information of the researcher.
 
 ## **Sample Data**
 
