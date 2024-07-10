@@ -1,0 +1,7 @@
+PropertyID,MaterialID,PropertyName,PropertyValue,Units
+1,1,Thermal Conductivity,200.5,W/mK
+2,1,Electrical Conductivity,5.2,S/m
+3,2,Thermal Conductivity,180.0,W/mK
+4,2,Electrical Conductivity,4.8,S/m
+5,3,Thermal Conductivity,220.0,W/mK
+6,3,Electrical Conductivity,6.0,S/m
