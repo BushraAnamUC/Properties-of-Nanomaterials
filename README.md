@@ -1,10 +1,10 @@
-Materials Science Data Analysis: Properties of Nanomaterials
+**Materials Science Data Analysis: Properties of Nanomaterials**
 
-Overview
+**Overview**
 
 This project focuses on analyzing and visualizing properties of nanomaterials to understand trends, correlations, and key properties influencing material performance. It leverages SQL for data querying and Python for data analysis and visualization.
 
-Table of Contents
+**Table of Contents**
 
 Overview
 Project Structure
@@ -18,8 +18,8 @@ Contributing
 Project Structure
 
 
-MaterialsScienceDataAnalysis/
-├── data/
+**MaterialsScienceDataAnalysis/** 
+├── data/ 
 │   ├── materials.csv
 │   ├── properties.csv
 │   ├── experiments.csv
@@ -33,8 +33,10 @@ MaterialsScienceDataAnalysis/
 ├── visualizations/
 │   ├── particle_size_vs_thermal_conductivity.png
 │   ├── doping_vs_electrical_conductivity.png
-├── SalesDB.db
+├── MaterialsDB
 ├── README.md
+
+
 Setup and Installation
 
 Prerequisites
@@ -112,7 +114,7 @@ Impact of doping on electrical conductivity.
 Properties measured by each researcher.
 Queries are provided in the sql/analysis_queries.sql file.
 
-Visualizations
+**Visualizations**
 
 Python scripts in the notebooks/data_analysis.ipynb notebook demonstrate how to visualize the data using Matplotlib and Seaborn.
 
